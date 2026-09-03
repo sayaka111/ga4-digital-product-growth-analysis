@@ -1,0 +1,263 @@
+[
+  {
+    "module": "Acquisition",
+    "metric_name": "New device users",
+    "numerator": 257314,
+    "denominator": null,
+    "metric_value": 257314,
+    "unit": "users",
+    "scope": "Userswith first_visit in the 92-day window"
+  },
+  {
+    "module": "Activation",
+    "metric_name": "Deep activationrate 24h",
+    "numerator": 9517,
+    "denominator": 255188,
+    "metric_value": 0.03729407338903083,
+    "unit": "rate",
+    "scope": "High-intent event; denominator has a complete 24-hour feature window"
+  },
+  {
+    "module": "Activation",
+    "metric_name": "Meaningful activation rate 24h",
+    "numerator": 29543,
+    "denominator": 255188,
+    "metric_value": 0.11576955029233349,
+    "unit": "rate",
+    "scope": "At least twocore-value events; denominator has a complete 24-hour feature window"
+  },
+  {
+    "module": "Activation",
+    "metric_name": "Primary activation rate",
+    "numerator": 50940,
+    "denominator": 257314,
+    "metric_value": 0.1979682411372875,
+    "unit": "rate",
+    "scope": "Core value reached in firstsession"
+  },
+  {
+    "module": "Conversion",
+    "metric_name": "Fixed-window conversion rate 24h-to-30d",
+    "numerator": 938,
+    "denominator": 170413,
+    "metric_value": 0.0055042749086043905,
+    "unit": "rate",
+    "scope": "Conversion in [first_visit+24h, first_visit+30d); complete 30-day cohorts only"
+  },
+  {
+    "module": "Conversion Funnel",
+    "metric_name": "Checkout to conversion ordered rate",
+    "numerator": 2313,
+    "denominator": 4420,
+    "metric_value": 0.5233031674208145,
+    "unit": "rate",
+    "scope": "Session grain; strictly increasing UTC event timestamps; equal timestamps excluded as orderunknown"
+  },
+  {
+    "module": "Conversion Funnel",
+    "metric_name": "Core to conversion ordered rate",
+    "numerator": 2313,
+    "denominator": 77020,
+    "metric_value": 0.030031160737470787,
+    "unit": "rate",
+    "scope": "Session grain; strictly increasing UTC event timestamps; equal timestamps excluded as orderunknown"
+  },
+  {
+    "module": "Conversion Funnel",
+    "metric_name": "Core to high-intent ordered rate",
+    "numerator": 12883,
+    "denominator": 77020,
+    "metric_value": 0.16726824201506102,
+    "unit": "rate",
+    "scope": "Session grain; strictly increasing UTC event timestamps; equal timestamps excluded as orderunknown"
+  },
+  {
+    "module": "Conversion Funnel",
+    "metric_name": "High-intent to checkout ordered rate",
+    "numerator": 4420,
+    "denominator": 12883,
+    "metric_value": 0.343087790110999,
+    "unit": "rate",
+    "scope": "Session grain; strictly increasing UTC event timestamps; equal timestamps excluded as orderunknown"
+  },
+  {
+    "module": "Lifecycle",
+    "metric_name": "Active user share at snapshot",
+    "numerator": 20323,
+    "denominator": 257314,
+    "metric_value": 0.07898132243095984,
+    "unit": "rate",
+    "scope": "Engaged in final 7 calendar days"
+  },
+  {
+    "module": "Lifecycle",
+    "metric_name": "Coolinguser share at snapshot",
+    "numerator": 69327,
+    "denominator": 238649,
+    "metric_value": 0.29049776030907315,
+    "unit": "rate",
+    "scope": "No engagement in final 7 days; engagement in prior 8-29days. Denominator: users observed at least 8 days"
+  },
+  {
+    "module": "Lifecycle",
+    "metric_name": "Dormant user share at snapshot",
+    "numerator": 167663,
+    "denominator": 172709,
+    "metric_value": 0.9707832249622197,
+    "unit": "rate",
+    "scope": "Denominator: users observed at least30 days"
+  },
+  {
+    "module": "Lifecycle",
+    "metric_name": "Not mature user share at snapshot",
+    "numerator": 1,
+    "denominator": 257314,
+    "metric_value": 3.886302338776747e-06,
+    "unit": "rate",
+    "scope": "Observed fewer than 30 days and not classifiable as Active or Cooling"
+  },
+  {
+    "module": "Retention",
+    "metric_name": "D1 core behavior return rate",
+    "numerator": 2421,
+    "denominator": 255189,
+    "metric_value": 0.009487086042109965,
+    "unit": "rate",
+    "scope": "Exactcalendar-day core behavior; eligible cohorts only"
+  },
+  {
+    "module": "Retention",
+    "metric_name": "D1 product return rate",
+    "numerator": 5816,
+    "denominator": 255189,
+    "metric_value": 0.022790951020616092,
+    "unit": "rate",
+    "scope": "Exact calendar-day return; eligible cohorts only"
+  },
+  {
+    "module": "Retention",
+    "metric_name": "D14 core behavior return rate",
+    "numerator": 251,
+    "denominator": 218429,
+    "metric_value": 0.001149114815340454,
+    "unit": "rate",
+    "scope": "Exactcalendar-day core behavior; eligible cohorts only"
+  },
+  {
+    "module": "Retention",
+    "metric_name": "D14 product return rate",
+    "numerator": 540,
+    "denominator": 218429,
+    "metric_value": 0.002472199204318108,
+    "unit": "rate",
+    "scope": "Exact calendar-day return; eligible cohorts only"
+  },
+  {
+    "module": "Retention",
+    "metric_name": "D3 core behavior return rate",
+    "numerator": 759,
+    "denominator": 250326,
+    "metric_value": 0.0030320462117398913,
+    "unit": "rate",
+    "scope": "Exactcalendar-day core behavior; eligible cohorts only"
+  },
+  {
+    "module": "Retention",
+    "metric_name": "D3 product return rate",
+    "numerator": 1787,
+    "denominator": 250326,
+    "metric_value": 0.007138691146744645,
+    "unit": "rate",
+    "scope": "Exact calendar-day return; eligible cohorts only"
+  },
+  {
+    "module": "Retention",
+    "metric_name": "D30 core behavior return rate",
+    "numerator": 85,
+    "denominator": 170413,
+    "metric_value": 0.0004987882379865386,
+    "unit": "rate",
+    "scope": "Exactcalendar-day core behavior; eligible cohorts only"
+  },
+  {
+    "module": "Retention",
+    "metric_name": "D30 product return rate",
+    "numerator": 194,
+    "denominator": 170413,
+    "metric_value": 0.0011384108019928058,
+    "unit": "rate",
+    "scope": "Exact calendar-day return; eligible cohorts only"
+  },
+  {
+    "module": "Retention",
+    "metric_name": "D7 core behavior return rate",
+    "numerator": 482,
+    "denominator": 238649,
+    "metric_value": 0.0020197025757493223,
+    "unit": "rate",
+    "scope": "Exactcalendar-day core behavior; eligible cohorts only"
+  },
+  {
+    "module": "Retention",
+    "metric_name": "D7 product return rate",
+    "numerator": 1162,
+    "denominator": 238649,
+    "metric_value": 0.00486907550419235,
+    "unit": "rate",
+    "scope": "Exact calendar-day return; eligible cohorts only"
+  },
+  {
+    "module": "User Value",
+    "metric_name": "Fixed-window positive recognized value user rate 24h-to-30d",
+    "numerator": 879,
+    "denominator": 170413,
+    "metric_value": 0.005158057190472558,
+    "unit": "rate",
+    "scope": "Recognized revenue > 0 in [first_visit+24h, first_visit+30d); complete 30-day cohorts only"
+  },
+  {
+    "module": "User Value",
+    "metric_name": "Fixed-window recognized value per eligible user 24h-to-30d",
+    "numerator": 84133,
+    "denominator": 170413,
+    "metric_value": 0.4937005979590759,
+    "unit": "USD per user",
+    "scope": "Recognized revenue in fixed window; complete 30-day cohorts only"
+  },
+  {
+    "module": "User Value",
+    "metric_name": "Identifiable order user rate",
+    "numerator": 3007,
+    "denominator": 257314,
+    "metric_value": 0.01168611113270168,
+    "unit": "rate",
+    "scope": "At least one canonical order with a valid order key; observed-to-data-end descriptive total"
+  },
+  {
+    "module": "User Value",
+    "metric_name": "Positive recognized value user rate",
+    "numerator": 3007,
+    "denominator": 257314,
+    "metric_value": 0.01168611113270168,
+    "unit": "rate",
+    "scope": "Recognized revenue > 0; observed-to-data-end descriptive total"
+  },
+  {
+    "module": "User Value",
+    "metric_name": "Recognized AOV",
+    "numerator": 243430,
+    "denominator": 3542,
+    "metric_value": 68.72670807453416,
+    "unit": "USD per order",
+    "scope": "Recognized revenue / canonical orders with one unambiguous non-NULL revenue value; unknown and conflict orders excluded"
+  },
+  {
+    "module": "User Value",
+    "metric_name": "Recognized value per new user",
+    "numerator": 243430,
+    "denominator": 257314,
+    "metric_value": 0.9460425783284236,
+    "unit": "USD per user",
+    "scope": "Observed-to-data-end descriptive total; not used for cross-group comparison"
+  }
+]

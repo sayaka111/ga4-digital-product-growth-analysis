@@ -1,0 +1,16 @@
+[
+  {
+    "cohort_month": "2020-11",
+    "common_support_core_sessions": 16729,
+    "crude_common_support_rate": 0.0741825572359376,
+    "standardized_core_to_high_intent_rate": 0.07416979298138593,
+    "common_support_strata": 17
+  },
+  {
+    "cohort_month": "2020-12",
+    "common_support_core_sessions": 17993,
+    "crude_common_support_rate": 0.23364641805146447,
+    "standardized_core_to_high_intent_rate": 0.23356684953295415,
+    "common_support_strata": 17
+  }
+]

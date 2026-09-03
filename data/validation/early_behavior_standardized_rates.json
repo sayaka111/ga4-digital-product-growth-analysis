@@ -1,0 +1,182 @@
+[
+  {
+    "feature_name": "meaningful_activation_24h",
+    "outcome_name": "d30_core_return",
+    "standardized_exposed_rate": 0.0017905549470309254,
+    "standardized_unexposed_rate": 0.00030541335184292235,
+    "standardized_risk_difference_pp": 0.14851415951880031,
+    "common_support_users": 170368,
+    "common_support_strata": 42
+  },
+  {
+    "feature_name": "deep_activation_24h",
+    "outcome_name": "d30_core_return",
+    "standardized_exposed_rate": 0.0017741808579806039,
+    "standardized_unexposed_rate": 0.00044411549986611505,
+    "standardized_risk_difference_pp": 0.1330065358114489,
+    "common_support_users": 170255,
+    "common_support_strata": 38
+  },
+  {
+    "feature_name": "returned_within_24h",
+    "outcome_name": "d30_core_return",
+    "standardized_exposed_rate": 0.001517025407336786,
+    "standardized_unexposed_rate": 0.0003614583192324537,
+    "standardized_risk_difference_pp": 0.11555670881043323,
+    "common_support_users": 170388,
+    "common_support_strata": 41
+  },
+  {
+    "feature_name": "primary_activation",
+    "outcome_name": "d30_core_return",
+    "standardized_exposed_rate": 0.0012352458007809106,
+    "standardized_unexposed_rate": 0.0003071544759322507,
+    "standardized_risk_difference_pp": 0.092809132484866,
+    "common_support_users": 170409,
+    "common_support_strata": 44
+  },
+  {
+    "feature_name": "deep_activation_24h",
+    "outcome_name": "d30_product_return",
+    "standardized_exposed_rate": 0.003466046590515351,
+    "standardized_unexposed_rate": 0.001050616041316755,
+    "standardized_risk_difference_pp": 0.2415430549198596,
+    "common_support_users": 170255,
+    "common_support_strata": 38
+  },
+  {
+    "feature_name": "meaningful_activation_24h",
+    "outcome_name": "d30_product_return",
+    "standardized_exposed_rate": 0.0031197154527826156,
+    "standardized_unexposed_rate": 0.0008438745701159076,
+    "standardized_risk_difference_pp": 0.2275840882666708,
+    "common_support_users": 170368,
+    "common_support_strata": 42
+  },
+  {
+    "feature_name": "returned_within_24h",
+    "outcome_name": "d30_product_return",
+    "standardized_exposed_rate": 0.0029497544591910066,
+    "standardized_unexposed_rate": 0.0008928990435108185,
+    "standardized_risk_difference_pp": 0.2056855415680188,
+    "common_support_users": 170388,
+    "common_support_strata": 41
+  },
+  {
+    "feature_name": "primary_activation",
+    "outcome_name": "d30_product_return",
+    "standardized_exposed_rate": 0.0022174042391068364,
+    "standardized_unexposed_rate": 0.0008445171545207716,
+    "standardized_risk_difference_pp": 0.1372887084586065,
+    "common_support_users": 170409,
+    "common_support_strata": 44
+  },
+  {
+    "feature_name": "meaningful_activation_24h",
+    "outcome_name": "d7_core_return",
+    "standardized_exposed_rate": 0.008369081842237674,
+    "standardized_unexposed_rate": 0.0012001659531626155,
+    "standardized_risk_difference_pp": 0.7168915889075059,
+    "common_support_users": 238649,
+    "common_support_strata": 45
+  },
+  {
+    "feature_name": "deep_activation_24h",
+    "outcome_name": "d7_core_return",
+    "standardized_exposed_rate": 0.008723557989846812,
+    "standardized_unexposed_rate": 0.0017618991912001587,
+    "standardized_risk_difference_pp": 0.6961658798646653,
+    "common_support_users": 238649,
+    "common_support_strata": 45
+  },
+  {
+    "feature_name": "returned_within_24h",
+    "outcome_name": "d7_core_return",
+    "standardized_exposed_rate": 0.006848449016917546,
+    "standardized_unexposed_rate": 0.0014173679102233475,
+    "standardized_risk_difference_pp": 0.5431081106694199,
+    "common_support_users": 238649,
+    "common_support_strata": 45
+  },
+  {
+    "feature_name": "primary_activation",
+    "outcome_name": "d7_core_return",
+    "standardized_exposed_rate": 0.005549658427528849,
+    "standardized_unexposed_rate": 0.001158672936233883,
+    "standardized_risk_difference_pp": 0.4390985491294966,
+    "common_support_users": 238649,
+    "common_support_strata": 45
+  },
+  {
+    "feature_name": "returned_within_24h",
+    "outcome_name": "d7_product_return",
+    "standardized_exposed_rate": 0.016361683208647466,
+    "standardized_unexposed_rate": 0.003438309604359783,
+    "standardized_risk_difference_pp": 1.2923373604287682,
+    "common_support_users": 238649,
+    "common_support_strata": 45
+  },
+  {
+    "feature_name": "deep_activation_24h",
+    "outcome_name": "d7_product_return",
+    "standardized_exposed_rate": 0.015061199149356195,
+    "standardized_unexposed_rate": 0.004463420231677655,
+    "standardized_risk_difference_pp": 1.059777891767854,
+    "common_support_users": 238649,
+    "common_support_strata": 45
+  },
+  {
+    "feature_name": "meaningful_activation_24h",
+    "outcome_name": "d7_product_return",
+    "standardized_exposed_rate": 0.014220191322625001,
+    "standardized_unexposed_rate": 0.003667826886968953,
+    "standardized_risk_difference_pp": 1.0552364435656048,
+    "common_support_users": 238649,
+    "common_support_strata": 45
+  },
+  {
+    "feature_name": "primary_activation",
+    "outcome_name": "d7_product_return",
+    "standardized_exposed_rate": 0.009251710248135113,
+    "standardized_unexposed_rate": 0.003808744038818292,
+    "standardized_risk_difference_pp": 0.5442966209316822,
+    "common_support_users": 238649,
+    "common_support_strata": 45
+  },
+  {
+    "feature_name": "deep_activation_24h",
+    "outcome_name": "future_conversion_24h_to_30d",
+    "standardized_exposed_rate": 0.03506327584396543,
+    "standardized_unexposed_rate": 0.004210488061348601,
+    "standardized_risk_difference_pp": 3.085278778261683,
+    "common_support_users": 170255,
+    "common_support_strata": 38
+  },
+  {
+    "feature_name": "meaningful_activation_24h",
+    "outcome_name": "future_conversion_24h_to_30d",
+    "standardized_exposed_rate": 0.02814899182587641,
+    "standardized_unexposed_rate": 0.002192269303861413,
+    "standardized_risk_difference_pp": 2.5956722522014997,
+    "common_support_users": 170368,
+    "common_support_strata": 42
+  },
+  {
+    "feature_name": "returned_within_24h",
+    "outcome_name": "future_conversion_24h_to_30d",
+    "standardized_exposed_rate": 0.020444545786282284,
+    "standardized_unexposed_rate": 0.00355635381724963,
+    "standardized_risk_difference_pp": 1.6888191969032653,
+    "common_support_users": 170388,
+    "common_support_strata": 41
+  },
+  {
+    "feature_name": "primary_activation",
+    "outcome_name": "future_conversion_24h_to_30d",
+    "standardized_exposed_rate": 0.018198280410562036,
+    "standardized_unexposed_rate": 0.0021772168315620935,
+    "standardized_risk_difference_pp": 1.6021063578999943,
+    "common_support_users": 170409,
+    "common_support_strata": 44
+  }
+]

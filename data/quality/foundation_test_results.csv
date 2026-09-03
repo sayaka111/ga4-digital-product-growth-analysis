@@ -1,0 +1,11 @@
+﻿check_name,status,detail
+canonical_orders,PASS,4466 orders
+composite_sessions,PASS,360129 sessions
+device_level_users,PASS,270154 users
+invalid_transaction_sentinel_excluded,PASS,0 sentinel orders retained
+no_earliest_row_revenue_loss,PASS,0 recoverable revenues lost
+no_valid_order_key_repeats_across_dates,PASS,0 user-transaction pairs span multiple dates
+order_revenue_policy_partition,PASS,4466 total = 4466 recognized + 0 all-null + 0 conflict
+recognized_revenue_requires_one_nonnull_value,PASS,0 inconsistent orders
+revenue_conflicts_excluded,PASS,0 conflicts included in primary revenue
+source_event_count,PASS,4295584 events

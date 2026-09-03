@@ -1,0 +1,5 @@
+﻿section,dimension_1,dimension_2,n,eligible_n,metric_1,metric_2,metric_3,metric_4,metric_5,notes
+lifecycle,Dormant,,167663,172709,0.9707832249622197,,,,,metric_1=status share using its applicablematurity denominator
+lifecycle,Cooling,,69327,238649,0.29049776030907315,,,,,metric_1=status share using its applicablematurity denominator
+lifecycle,Active,,20323,257314,0.07898132243095984,,,,,metric_1=status share using its applicablematurity denominator
+lifecycle,Not Mature,,1,257314,3.886302338776747e-06,,,,,metric_1=status share using its applicablematurity denominator

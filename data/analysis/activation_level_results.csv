@@ -1,0 +1,4 @@
+﻿section,dimension_1,dimension_2,n,eligible_n,metric_1,metric_2,metric_3,metric_4,metric_5,notes
+activation_level,核心体验：首会话核心价值,,50940,257314,0.1979682411372875,0.005598649486078167,0.01835306168905076,,,D7 reached eligible=46797; fixed-future reached eligible=35144
+activation_level,有意义激活：24小时内至少2次核心价值,,29543,255188,0.11576955029233349,0.008293838862559242,0.028145771258308503,,,D7 reached eligible=27852; fixed-future reached eligible=21815
+activation_level,深度意向：24小时内高意向行为,,9517,255188,0.03729407338903083,0.008467966573816156,0.0358600583090379,,,D7 reachedeligible=8975; fixed-future reached eligible=6860

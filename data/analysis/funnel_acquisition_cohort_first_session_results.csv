@@ -1,0 +1,4 @@
+﻿section,dimension_1,dimension_2,n,eligible_n,metric_1,metric_2,metric_3,metric_4,metric_5,notes
+funnel_acquisition_cohort_first_session,2020-12,,18081,18081,0.23361539737846357,0.28669507575757575,0.3897605284888522,0.0261047508434268,,one first session per acquired user; equal lifecycle-relative window
+funnel_acquisition_cohort_first_session,2020-11,,16826,16826,0.07399263045287056,0.3325301204819277,0.38405797101449274,0.009449661238559372,,one first session per acquired user; equal lifecycle-relative window
+funnel_acquisition_cohort_first_session,2021-01,,16033,16033,0.13091748269194786,0.28442115292996667,0.4824120603015075,0.017962951412711283,,one first session per acquired user; equal lifecycle-relative window

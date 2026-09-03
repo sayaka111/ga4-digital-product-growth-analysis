@@ -1,0 +1,30 @@
+﻿module,metric_name,numerator,denominator,metric_value,unit,scope
+Acquisition,New device users,257314,,257314,users,Userswith first_visit in the 92-day window
+Activation,Deep activationrate 24h,9517,255188,0.03729407338903083,rate,High-intent event; denominator has a complete 24-hour feature window
+Activation,Meaningful activation rate 24h,29543,255188,0.11576955029233349,rate,At least twocore-value events; denominator has a complete 24-hour feature window
+Activation,Primary activation rate,50940,257314,0.1979682411372875,rate,Core value reached in firstsession
+Conversion,Fixed-window conversion rate 24h-to-30d,938,170413,0.0055042749086043905,rate,"Conversion in [first_visit+24h, first_visit+30d); complete 30-day cohorts only"
+Conversion Funnel,Checkout to conversion ordered rate,2313,4420,0.5233031674208145,rate,Session grain; strictly increasing UTC event timestamps; equal timestamps excluded as orderunknown
+Conversion Funnel,Core to conversion ordered rate,2313,77020,0.030031160737470787,rate,Session grain; strictly increasing UTC event timestamps; equal timestamps excluded as orderunknown
+Conversion Funnel,Core to high-intent ordered rate,12883,77020,0.16726824201506102,rate,Session grain; strictly increasing UTC event timestamps; equal timestamps excluded as orderunknown
+Conversion Funnel,High-intent to checkout ordered rate,4420,12883,0.343087790110999,rate,Session grain; strictly increasing UTC event timestamps; equal timestamps excluded as orderunknown
+Lifecycle,Active user share at snapshot,20323,257314,0.07898132243095984,rate,Engaged in final 7 calendar days
+Lifecycle,Coolinguser share at snapshot,69327,238649,0.29049776030907315,rate,No engagement in final 7 days; engagement in prior 8-29days. Denominator: users observed at least 8 days
+Lifecycle,Dormant user share at snapshot,167663,172709,0.9707832249622197,rate,Denominator: users observed at least30 days
+Lifecycle,Not mature user share at snapshot,1,257314,3.886302338776747e-06,rate,Observed fewer than 30 days and not classifiable as Active or Cooling
+Retention,D1 core behavior return rate,2421,255189,0.009487086042109965,rate,Exactcalendar-day core behavior; eligible cohorts only
+Retention,D1 product return rate,5816,255189,0.022790951020616092,rate,Exact calendar-day return; eligible cohorts only
+Retention,D14 core behavior return rate,251,218429,0.001149114815340454,rate,Exactcalendar-day core behavior; eligible cohorts only
+Retention,D14 product return rate,540,218429,0.002472199204318108,rate,Exact calendar-day return; eligible cohorts only
+Retention,D3 core behavior return rate,759,250326,0.0030320462117398913,rate,Exactcalendar-day core behavior; eligible cohorts only
+Retention,D3 product return rate,1787,250326,0.007138691146744645,rate,Exact calendar-day return; eligible cohorts only
+Retention,D30 core behavior return rate,85,170413,0.0004987882379865386,rate,Exactcalendar-day core behavior; eligible cohorts only
+Retention,D30 product return rate,194,170413,0.0011384108019928058,rate,Exact calendar-day return; eligible cohorts only
+Retention,D7 core behavior return rate,482,238649,0.0020197025757493223,rate,Exactcalendar-day core behavior; eligible cohorts only
+Retention,D7 product return rate,1162,238649,0.00486907550419235,rate,Exact calendar-day return; eligible cohorts only
+User Value,Fixed-window positive recognized value user rate 24h-to-30d,879,170413,0.005158057190472558,rate,"Recognized revenue > 0 in [first_visit+24h, first_visit+30d); complete 30-day cohorts only"
+User Value,Fixed-window recognized value per eligible user 24h-to-30d,84133,170413,0.4937005979590759,USD per user,Recognized revenue in fixed window; complete 30-day cohorts only
+User Value,Identifiable order user rate,3007,257314,0.01168611113270168,rate,At least one canonical order with a valid order key; observed-to-data-end descriptive total
+User Value,Positive recognized value user rate,3007,257314,0.01168611113270168,rate,Recognized revenue > 0; observed-to-data-end descriptive total
+User Value,Recognized AOV,243430,3542,68.72670807453416,USD per order,Recognized revenue / canonical orders with one unambiguous non-NULL revenue value; unknown and conflict orders excluded
+User Value,Recognized value per new user,243430,257314,0.9460425783284236,USD per user,Observed-to-data-end descriptive total; not used for cross-group comparison

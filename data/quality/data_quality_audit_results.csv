@@ -1,0 +1,18 @@
+﻿section,metric,value,detail
+fixed_window_users,converted_users,938.0,purchase conversion event in fixed window
+fixed_window_users,future_30d_eligible_users,170413.0,"[first_visit+24h, first_visit+30d)"
+fixed_window_users,identifiable_order_users,879.0,at least one canonical order
+fixed_window_users,positive_revenue_users,879.0,recognized fixed-window revenue > 0
+fixed_window_users,recognized_revenue_users,879.0,at least one revenue-recognized canonical order
+order_revenue,canonical_orders_revenue_conflict,0.0,multiple distinct non-NULL values; excluded from primary revenue
+order_revenue,canonical_orders_revenue_null,0.0,all duplicate rows have NULL revenue
+order_revenue,canonical_orders_revenue_recognized,4466.0,exactly one distinct non-NULL revenue value
+order_revenue,canonical_orders_total,4466.0,identifiable canonical orders
+order_revenue,canonical_orders_zero_revenue,0.0,recognized revenue equals zero
+order_revenue,recognized_revenue_usd,308830.0,conflicts and all-NULL orders excluded
+purchase_quantity,purchase_item_rows,16003.0,purchase event item rows only
+purchase_quantity,purchase_item_rows_quantity_nonnull,15555.0,purchase item rows with quantity populated
+purchase_quantity,purchase_item_rows_quantity_positive,15555.0,purchase item rows with quantity > 0
+timestamp_ties,checkout_conversion_ties,0.0,order unknown; excluded from strict ordered funnel
+timestamp_ties,core_high_intent_ties,2263.0,order unknown; excluded from strict ordered funnel
+timestamp_ties,high_intent_checkout_ties,0.0,order unknown; excluded from strict ordered funnel

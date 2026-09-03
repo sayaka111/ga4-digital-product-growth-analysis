@@ -1,0 +1,67 @@
+[
+  {
+    "check_name": "acquisition_users_reconcile",
+    "status": "PASS",
+    "detail": "257314 users"
+  },
+  {
+    "check_name": "activation_cohort_users_reconcile",
+    "status": "PASS",
+    "detail": "257314 users"
+  },
+  {
+    "check_name": "feature_24h_ineligible_values_are_null",
+    "status": "PASS",
+    "detail": "0 ineligible rows with populated 24h features"
+  },
+  {
+    "check_name": "future_30d_ineligible_values_are_null",
+    "status": "PASS",
+    "detail": "0 ineligible rows with populated fixed-window outcomes"
+  },
+  {
+    "check_name": "future_30d_window_is_complete",
+    "status": "PASS",
+    "detail": "0 eligible rows extend beyond data end"
+  },
+  {
+    "check_name": "future_conversion_differs_from_positive_value",
+    "status": "PASS",
+    "detail": "938 conversions vs 879 positive-value users"
+  },
+  {
+    "check_name": "future_conversion_numerator_within_denominator",
+    "status": "PASS",
+    "detail": "938 conversions / 170413 eligible users"
+  },
+  {
+    "check_name": "future_value_binary_hierarchy",
+    "status": "PASS",
+    "detail": "879 positive <= 879 revenue-recognized <= 879 identifiable users"
+  },
+  {
+    "check_name": "lifecycle_immaturity_prevents_dormancy",
+    "status": "PASS",
+    "detail": "0 immature dormant rows"
+  },
+  {
+    "check_name": "lifecycle_status_is_complete",
+    "status": "PASS",
+    "detail": "0 invalid rows"
+  },
+  {
+    "check_name": "one_lifecycle_row_per_new_user",
+    "status": "PASS",
+    "detail": "257314 rows"
+  },
+  {
+    "check_name": "one_value_row_per_new_user",
+    "status": "PASS",
+    "detail": "257314 rows"
+  },
+  {
+    "check_name": "retention_denominators_valid",
+    "status": "PASS",
+    "detail": "0 invalid rows"
+  }
+]

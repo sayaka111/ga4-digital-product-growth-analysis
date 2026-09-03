@@ -1,0 +1,14 @@
+﻿check_name,status,detail
+acquisition_users_reconcile,PASS,257314 users
+activation_cohort_users_reconcile,PASS,257314 users
+feature_24h_ineligible_values_are_null,PASS,0 ineligible rows with populated 24h features
+future_30d_ineligible_values_are_null,PASS,0 ineligible rows with populated fixed-window outcomes
+future_30d_window_is_complete,PASS,0 eligible rows extend beyond data end
+future_conversion_differs_from_positive_value,PASS,938 conversions vs 879 positive-value users
+future_conversion_numerator_within_denominator,PASS,938 conversions / 170413 eligible users
+future_value_binary_hierarchy,PASS,879 positive <= 879 revenue-recognized <= 879 identifiable users
+lifecycle_immaturity_prevents_dormancy,PASS,0 immature dormant rows
+lifecycle_status_is_complete,PASS,0 invalid rows
+one_lifecycle_row_per_new_user,PASS,257314 rows
+one_value_row_per_new_user,PASS,257314 rows
+retention_denominators_valid,PASS,0 invalid rows

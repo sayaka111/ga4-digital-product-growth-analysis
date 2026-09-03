@@ -1,0 +1,52 @@
+[
+  {
+    "check_name": "canonical_orders",
+    "status": "PASS",
+    "detail": "4466 orders"
+  },
+  {
+    "check_name": "composite_sessions",
+    "status": "PASS",
+    "detail": "360129 sessions"
+  },
+  {
+    "check_name": "device_level_users",
+    "status": "PASS",
+    "detail": "270154 users"
+  },
+  {
+    "check_name": "invalid_transaction_sentinel_excluded",
+    "status": "PASS",
+    "detail": "0 sentinel orders retained"
+  },
+  {
+    "check_name": "no_earliest_row_revenue_loss",
+    "status": "PASS",
+    "detail": "0 recoverable revenues lost"
+  },
+  {
+    "check_name": "no_valid_order_key_repeats_across_dates",
+    "status": "PASS",
+    "detail": "0 user-transaction pairs span multiple dates"
+  },
+  {
+    "check_name": "order_revenue_policy_partition",
+    "status": "PASS",
+    "detail": "4466 total = 4466 recognized + 0 all-null + 0 conflict"
+  },
+  {
+    "check_name": "recognized_revenue_requires_one_nonnull_value",
+    "status": "PASS",
+    "detail": "0 inconsistent orders"
+  },
+  {
+    "check_name": "revenue_conflicts_excluded",
+    "status": "PASS",
+    "detail": "0 conflicts included in primary revenue"
+  },
+  {
+    "check_name": "source_event_count",
+    "status": "PASS",
+    "detail": "4295584 events"
+  }
+]

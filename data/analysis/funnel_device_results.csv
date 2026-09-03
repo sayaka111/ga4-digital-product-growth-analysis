@@ -1,0 +1,4 @@
+﻿section,dimension_1,dimension_2,n,eligible_n,metric_1,metric_2,metric_3,metric_4,metric_5,notes
+funnel_device,desktop,,44819,44819,0.1664695776344854,0.33949872671223696,0.5191472562179235,0.029340235168120662,,core sessions arebase scale; each step uses the prior stage; metric_4 uses core sessions
+funnel_device,mobile,,30501,30501,0.16874856562079932,0.34758111521274526,0.5287870318613751,0.03101537654503131,,core sessions are basescale; each step uses the prior stage; metric_4 uses core sessions
+funnel_device,tablet,,1700,1700,0.16176470588235295,0.3563636363636364,0.5306122448979592,0.03058823529411765,,core sessions are base scale; each step uses the priorstage; metric_4 uses core sessions

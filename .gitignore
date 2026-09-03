@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+
+# Node
+node_modules/
+
+# Local editor/workspace
+.obsidian/
+.vscode/
+
+# Local environment / credentials
+.env
+.env.*
+*.key
+*.pem
+
+# Local data
+data/raw/
+data/interim/
+data/processed/
+
+# Archives
+archive/
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,90 @@
+project:
+  name: ga4_digital_product_growth_analysis
+  source_product: google_merchandise_store
+  calendar_day_semantics: ga4_event_date_in_property_reporting_timezone
+  rolling_window_semantics: utc_event_timestamp
+  user_grain: device
+  user_key: user_pseudo_id
+  session_key: user_pseudo_id_plus_ga_session_id
+
+event_roles:
+  acquisition:
+    event: first_visit
+    meaning: first observed acquisition event
+
+  engagement:
+    event: user_engagement
+    session_flag: session_engaged
+    meaning: meaningful product activity rather than an initialization event
+
+  core_value:
+    event: view_item
+    meaning: user reaches the product's core exploration experience
+
+  high_intent:
+    event: add_to_cart
+    meaning: user expresses intent beyond exploration
+
+  conversion:
+    event: purchase
+    meaning: terminal business outcome
+
+  value:
+    event: purchase
+    amount_field: ecommerce.purchase_revenue_in_usd
+    currency: USD
+
+activation:
+  feature_maturity:
+    rule: first_visit_plus_24h_not_after_data_end
+    ineligible_value: null
+  primary:
+    grain: user
+    population: users_with_first_visit
+    window: first_session
+    rule: has_core_value_event
+  meaningful:
+    grain: user
+    population: users_with_first_visit
+    window: first_24_hours
+    rule: core_value_event_count_greater_than_or_equal_to_2
+    rationale: repeated core-value behavior is a stricter, behaviorally distinct activation proxy
+  deep_activation:
+    grain: user
+    population: users_with_first_visit
+    window: first_24_hours
+    rule: has_high_intent_event
+
+retention:
+  offsets_days: [1, 3, 7, 14, 30]
+  product_return:
+    rule: has_engaged_session
+  core_behavior_return:
+    rule: has_core_value_event
+
+funnels:
+  product_activation:
+    grain: user
+    ordered: true
+    stages: [first_visit, engaged_session, core_value, high_intent]
+  conversion:
+    grain: session
+    ordered: true
+    stages: [core_value, high_intent, begin_checkout, conversion]
+
+business_outcome:
+  comparable_future_window:
+    start: first_visit_plus_24h
+    end_exclusive: first_visit_plus_30d
+    eligibility: complete_30d_observation
+    ineligible_value: null
+  canonical_order_key:
+    fields: [user_pseudo_id, event_date, ecommerce_transaction_id]
+  invalid_transaction_id_policy: exclude_null_blank_and_sentinel_not_set_from_order_count_and_report_separately
+  duplicate_policy:
+    order_timestamp: earliest_purchase_event
+    revenue_one_distinct_nonnull: use_that_value
+    revenue_multiple_distinct_nonnull: flag_conflict_and_exclude_from_primary_revenue
+    revenue_all_null: identifiable_order_with_unrecognized_revenue
+    revenue_zero: preserve_zero
+  recognized_aov_denominator: revenue_recognized_orders

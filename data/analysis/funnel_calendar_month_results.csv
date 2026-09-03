@@ -1,0 +1,4 @@
+﻿section,dimension_1,dimension_2,n,eligible_n,metric_1,metric_2,metric_3,metric_4,metric_5,notes
+funnel_calendar_month,2020-12,,27971,27971,0.25597940724321616,0.33715083798882683,0.5186412593206297,0.04476064495370205,,all sessions grouped by the actual GA4 reporting-date calendar month
+funnel_calendar_month,2020-11,,25946,25946,0.07392276266091112,0.3863399374348279,0.49527665317139,0.014144762198412087,,all sessions grouped by the actual GA4 reporting-date calendar month
+funnel_calendar_month,2021-01,,23103,23103,0.16469722546855387,0.3324572930354796,0.5486166007905139,0.030039388823962256,,all sessions grouped by the actual GA4 reporting-date calendar month

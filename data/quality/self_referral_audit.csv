@@ -1,0 +1,2 @@
+﻿section,dimension_1,dimension_2,n,eligible_n,metric_1,metric_2,metric_3,metric_4,metric_5,notes
+self_referral_audit,shop.googlemerchandisestore.com,referral,12747,8485,0.20271436416411703,0.004066418163334463,0.0017678255745433118,0.0037713612256923983,0.520447849145551,probable self-referral; positive-value users=31; retained for attribution audit only

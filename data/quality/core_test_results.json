@@ -1,0 +1,37 @@
+[
+  {
+    "check_name": "first_visit_users_fully_covered_by_first_session",
+    "status": "PASS",
+    "detail": "257314 / 257314 first-visit users modeled"
+  },
+  {
+    "check_name": "five_retention_offsets_per_new_user",
+    "status": "PASS",
+    "detail": "1286570 rows"
+  },
+  {
+    "check_name": "one_early_feature_row_per_new_user",
+    "status": "PASS",
+    "detail": "257314 rows"
+  },
+  {
+    "check_name": "one_first_session_per_new_user",
+    "status": "PASS",
+    "detail": "257314 rows / 257314 users"
+  },
+  {
+    "check_name": "one_funnel_row_per_session",
+    "status": "PASS",
+    "detail": "360129 rows"
+  },
+  {
+    "check_name": "ordered_funnel_excludes_timestamp_ties",
+    "status": "PASS",
+    "detail": "0 tied sequences incorrectly treated as ordered"
+  },
+  {
+    "check_name": "unique_user_day_grain",
+    "status": "PASS",
+    "detail": "319066 rows"
+  }
+]

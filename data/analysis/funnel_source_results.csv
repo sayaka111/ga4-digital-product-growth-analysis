@@ -1,0 +1,8 @@
+﻿section,dimension_1,dimension_2,n,eligible_n,metric_1,metric_2,metric_3,metric_4,metric_5,notes
+funnel_source,google /organic,,23663,23663,0.1573342348814605,0.32688691915122214,0.5053410024650781,0.02598994210370621,,full-session funnel; minimum 500 core sessions
+funnel_source,(direct) / (none),,17678,17678,0.16885394275370516,0.34003350083752093,0.5152709359605911,0.029584794660029414,,full-session funnel;minimum 500 core sessions
+funnel_source,<Other> /<Other>,,10589,10589,0.16214940032108793,0.32265579499126384,0.44945848375451264,0.023514968363395977,,full-session funnel; minimum 500 core sessions
+funnel_source,<Other> / referral,,7455,7455,0.16633132126089872,0.33064516129032256,0.524390243902439,0.028839704896042925,,full-session funnel; minimum 500 core sessions
+funnel_source,(data deleted) / (data deleted),,5656,5656,0.20827439886845828,0.4168081494057725,0.6313645621181263,0.05480905233380481,,full-session funnel; minimum 500 coresessions
+funnel_source,google / cpc,,3167,3167,0.1509314808967477,0.3179916317991632,0.47368421052631576,0.022734449005367856,,full-session funnel; minimum 500 core sessions
+funnel_source,<Other> / organic,,2077,2077,0.16032739528165624,0.3183183183183183,0.49056603773584906,0.025036109773712085,,full-session funnel; minimum 500 coresessions

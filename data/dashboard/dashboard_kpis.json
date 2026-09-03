@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "date_range": "2020-11-01 至 2021-01-31",
+    "user_grain": "设备级用户（user_pseudo_id）",
+    "calendar_day_semantics": "GA4 event_date（属性报表时区日期）",
+    "rolling_window_semantics": "event_timestamp（协调世界时精确时间）",
+    "source_disclaimer": "Google 官方脱敏 GA4 样例；结果用于验证分析方法，不代表商店真实生产经营指标。"
+  },
+  "headline": [
+    {
+      "label": "新增设备用户",
+      "value": 257314.0,
+      "format": "integer",
+      "numerator": 257314.0,
+      "denominator": null,
+      "context": "发生 first_visit 的设备级用户"
+    },
+    {
+      "label": "主激活率",
+      "value": 0.1979682411372875,
+      "format": "percent",
+      "numerator": 50940.0,
+      "denominator": 257314.0,
+      "context": "50,940 / 257,314"
+    },
+    {
+      "label": "有意义激活率",
+      "value": 0.11576955029233349,
+      "format": "percent",
+      "numerator": 29543.0,
+      "denominator": 255188.0,
+      "context": "29,543 / 255,188"
+    },
+    {
+      "label": "第7日产品返回率",
+      "value": 0.00486907550419235,
+      "format": "percent",
+      "numerator": 1162.0,
+      "denominator": 238649.0,
+      "context": "1,162 / 238,649"
+    }
+  ],
+  "funnel": [
+    {
+      "stage": "核心价值",
+      "sessions": 77020
+    },
+    {
+      "stage": "高意向",
+      "sessions": 12883
+    },
+    {
+      "stage": "开始结账",
+      "sessions": 4420
+    },
+    {
+      "stage": "完成转化",
+      "sessions": 2313
+    }
+  ],
+  "retention": [
+    {
+      "day": 1,
+      "eligible": 255189,
+      "product": 0.022790951,
+      "core": 0.009487086
+    },
+    {
+      "day": 3,
+      "eligible": 250326,
+      "product": 0.0071386911,
+      "core": 0.0030320462
+    },
+    {
+      "day": 7,
+      "eligible": 238649,
+      "product": 0.0048690755,
+      "core": 0.0020197026
+    },
+    {
+      "day": 14,
+      "eligible": 218429,
+      "product": 0.0024721992,
+      "core": 0.0011491148
+    },
+    {
+      "day": 30,
+      "eligible": 170413,
+      "product": 0.0011384108,
+      "core": 0.0004987882
+    }
+  ],
+  "lifecycle": [
+    {
+      "status_key": "dormant",
+      "status_label": "沉寂",
+      "users": 167663,
+      "denominator": 172709,
+      "share": 0.9707832249622197
+    },
+    {
+      "status_key": "cooling",
+      "status_label": "近期未活跃",
+      "users": 69327,
+      "denominator": 238649,
+      "share": 0.29049776030907315
+    },
+    {
+      "status_key": "active",
+      "status_label": "活跃",
+      "users": 20323,
+      "denominator": 257314,
+      "share": 0.07898132243095984
+    },
+    {
+      "status_key": "not_mature",
+      "status_label": "未成熟",
+      "users": 1,
+      "denominator": 257314,
+      "share": 3.886302338776747e-06
+    }
+  ],
+  "value": {
+    "identifiable_order_users": 3007,
+    "identifiable_order_user_rate": 0.01168611113270168,
+    "positive_recognized_value_users": 3007,
+    "positive_recognized_value_user_rate": 0.01168611113270168,
+    "identifiable_orders": 3542,
+    "revenue_recognized_orders": 3542,
+    "recognized_revenue_usd": 243430.0,
+    "value_per_new_user_usd": 0.9460425783284236,
+    "recognized_aov_usd": 68.72670807453416
+  },
+  "fixed_window": {
+    "label": "首访后24小时至第30日",
+    "eligible_users": 170413,
+    "converted_users": 938,
+    "conversion_rate": 0.0055042749086043905,
+    "identifiable_order_users": 879,
+    "recognized_revenue_users": 879,
+    "positive_recognized_value_users": 879,
+    "positive_recognized_value_rate": 0.005158057190472558,
+    "recognized_revenue_usd": 84133.0,
+    "value_per_eligible_user_usd": 0.4937005979590759
+  },
+  "audit_populations": {
+    "all_sample": {
+      "canonical_orders": 4466,
+      "revenue_recognized_orders": 4466,
+      "revenue_null_orders": 0,
+      "zero_revenue_orders": 0,
+      "revenue_conflict_orders": 0,
+      "recognized_revenue_usd": 308830.0,
+      "purchase_item_rows": 16003,
+      "purchase_item_rows_quantity_nonnull": 15555,
+      "purchase_quantity_completeness": 0.9720052490158095,
+      "core_high_intent_timestamp_ties": 2263
+    },
+    "new_user_observed_to_end": {
+      "identifiable_order_users": 3007,
+      "identifiable_order_user_rate": 0.01168611113270168,
+      "positive_recognized_value_users": 3007,
+      "positive_recognized_value_user_rate": 0.01168611113270168,
+      "identifiable_orders": 3542,
+      "revenue_recognized_orders": 3542,
+      "recognized_revenue_usd": 243430.0,
+      "value_per_new_user_usd": 0.9460425783284236,
+      "recognized_aov_usd": 68.72670807453416
+    },
+    "user_order_integrity": {
+      "first_visit_users": 257314,
+      "first_session_users": 257314,
+      "first_session_coverage_rate": 1.0,
+      "qa1_status": "PASS",
+      "sentinel_source_purchase_rows": 883,
+      "sentinel_user_dates": 787,
+      "sentinel_cross_day_pairs": 18,
+      "valid_order_cross_day_pairs": 0,
+      "qa2_status": "PASS_AFTER_SENTINEL_EXCLUSION"
+    }
+  }
+}

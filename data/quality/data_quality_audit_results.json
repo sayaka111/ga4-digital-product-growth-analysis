@@ -1,0 +1,104 @@
+[
+  {
+    "section": "fixed_window_users",
+    "metric": "converted_users",
+    "value": "938.0",
+    "detail": "purchase conversion event in fixed window"
+  },
+  {
+    "section": "fixed_window_users",
+    "metric": "future_30d_eligible_users",
+    "value": "170413.0",
+    "detail": "[first_visit+24h, first_visit+30d)"
+  },
+  {
+    "section": "fixed_window_users",
+    "metric": "identifiable_order_users",
+    "value": "879.0",
+    "detail": "at least one canonical order"
+  },
+  {
+    "section": "fixed_window_users",
+    "metric": "positive_revenue_users",
+    "value": "879.0",
+    "detail": "recognized fixed-window revenue > 0"
+  },
+  {
+    "section": "fixed_window_users",
+    "metric": "recognized_revenue_users",
+    "value": "879.0",
+    "detail": "at least one revenue-recognized canonical order"
+  },
+  {
+    "section": "order_revenue",
+    "metric": "canonical_orders_revenue_conflict",
+    "value": "0.0",
+    "detail": "multiple distinct non-NULL values; excluded from primary revenue"
+  },
+  {
+    "section": "order_revenue",
+    "metric": "canonical_orders_revenue_null",
+    "value": "0.0",
+    "detail": "all duplicate rows have NULL revenue"
+  },
+  {
+    "section": "order_revenue",
+    "metric": "canonical_orders_revenue_recognized",
+    "value": "4466.0",
+    "detail": "exactly one distinct non-NULL revenue value"
+  },
+  {
+    "section": "order_revenue",
+    "metric": "canonical_orders_total",
+    "value": "4466.0",
+    "detail": "identifiable canonical orders"
+  },
+  {
+    "section": "order_revenue",
+    "metric": "canonical_orders_zero_revenue",
+    "value": "0.0",
+    "detail": "recognized revenue equals zero"
+  },
+  {
+    "section": "order_revenue",
+    "metric": "recognized_revenue_usd",
+    "value": "308830.0",
+    "detail": "conflicts and all-NULL orders excluded"
+  },
+  {
+    "section": "purchase_quantity",
+    "metric": "purchase_item_rows",
+    "value": "16003.0",
+    "detail": "purchase event item rows only"
+  },
+  {
+    "section": "purchase_quantity",
+    "metric": "purchase_item_rows_quantity_nonnull",
+    "value": "15555.0",
+    "detail": "purchase item rows with quantity populated"
+  },
+  {
+    "section": "purchase_quantity",
+    "metric": "purchase_item_rows_quantity_positive",
+    "value": "15555.0",
+    "detail": "purchase item rows with quantity > 0"
+  },
+  {
+    "section": "timestamp_ties",
+    "metric": "checkout_conversion_ties",
+    "value": "0.0",
+    "detail": "order unknown; excluded from strict ordered funnel"
+  },
+  {
+    "section": "timestamp_ties",
+    "metric": "core_high_intent_ties",
+    "value": "2263.0",
+    "detail": "order unknown; excluded from strict ordered funnel"
+  },
+  {
+    "section": "timestamp_ties",
+    "metric": "high_intent_checkout_ties",
+    "value": "0.0",
+    "detail": "order unknown; excluded from strict ordered funnel"
+  }
+]
